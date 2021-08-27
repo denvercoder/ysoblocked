@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "React Chrome Ext Starter Template",
+  "description": "Starter template with React, React Router, and TailwindCss.",
+  "version": "0.0.1",
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_icon": {
+      "32": "icon.png"
+    },
+    "default_popup": "index.html",
+    "default_title": "Open Popup"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
